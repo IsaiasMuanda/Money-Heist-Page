@@ -1,0 +1,19 @@
+.personagem-imagem {
+    display: flex;
+    margin: 30px;
+    align-items: center; /* Alinha verticalmente */
+}
+
+.personagem-imagem img {
+    max-width: 50%; /* A imagem ocupará no máximo 50% da largura do contêiner */
+    margin-left: 20px; /* Espaço entre a imagem e o texto */
+    margin-right: 20px;
+}
+
+.texto {
+    flex: 1; /* Expande para ocupar o espaço disponível */
+}
+.h1-right{
+    text-align: right;
+    margin-right: 40px;
+}

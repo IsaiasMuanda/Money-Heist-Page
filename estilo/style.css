@@ -67,7 +67,6 @@ main h1{
     font-weight: 700;
 }
 
-main h1::after{
     content: '\1F3B6';
 }
 
@@ -121,12 +120,22 @@ div.video > iframe{
     width: 90%;
 }
 
-.imagens-1{
-    height: 200px;
+.imagens-top{
     margin: auto;
+    display: flex;
 }
 
-.link-esterno{
+.imagens-abaixo{
+    margin: auto;
+    display: block;
+}
+
+.imagens-abaixo > p{
+    margin-top: 0px;
+    text-align: center;
+}
+
+.link-externo{
     background-color: black;
     color: white;
     border-radius: 10px;
@@ -134,12 +143,12 @@ div.video > iframe{
     padding: 1px;
 }
 
-.link-esterno:hover{
+.link-externo:hover{
     text-decoration: underline;
     padding: 2px;
 }
 
-.link-esterno::after{
+.link-externo::after{
     content: '\1F517';
 }
 
