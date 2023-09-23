@@ -67,6 +67,7 @@ main h1{
     font-weight: 700;
 }
 
+#H1-Bella-Ciao::after{
     content: '\1F3B6';
 }
 
