@@ -1,24 +1,26 @@
 .personagem-imagem {
     display: flex;
     margin: 30px;
-    align-items: center; /* Alinha verticalmente */
+    align-items: center; 
 }
 
 .personagem-imagem img {
-    max-width: 50%; /* A imagem ocupará no máximo 50% da largura do contêiner */
-    margin-left: 20px; /* Espaço entre a imagem e o texto */
+    max-width: 50%; 
+    margin-left: 20px; 
     margin-right: 20px;
+    min-width: 300px;
 }
 
 .texto {
-    flex: 1; /* Expande para ocupar o espaço disponível */
+    flex: 1;
 }
+
 .h1-right{
     text-align: right;
     margin-right: 40px;
 }
 
-
 #ListaCompleta{
     text-align: center;
 }
+
