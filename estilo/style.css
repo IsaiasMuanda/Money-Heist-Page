@@ -26,11 +26,10 @@ header{
     height: 200px;
 }
 
-header > picture{
+picture{
     display: flex;
     padding: 30px;
     justify-content: center;
-    align-items: center;
 }
 
 nav{
@@ -54,7 +53,7 @@ nav > a:hover{
 }
 
 main{
-    padding: 20px;
+    padding: 15px;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
