@@ -27,8 +27,11 @@ header{
 }
 
 header > picture{
+    display: flex;
+
     padding: 30px;
     justify-content: center;
+    align-items: center;
 }
 
 nav{
