@@ -6,11 +6,24 @@
 aside > pre{
     background-color: black;
     border-radius: 20px;
-    max-width: 470px;
+    max-width: 400px;
     min-width: 200;
     height: 600px;
     display: flex;
     margin: auto;
+}
+
+.container-letra{
+    background-color: black;
+    border-radius: 10px;
+}
+.letra{
+    display: flex;
+    text-align: justify;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 h3{
     text-align: center;
