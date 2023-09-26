@@ -16,6 +16,11 @@ h3{
     text-align: center;
 }
 
+picture{
+    max-width: 350px;
+    margin: auto;
+}
+
 #letra{
     color: white;
     text-align: center;
