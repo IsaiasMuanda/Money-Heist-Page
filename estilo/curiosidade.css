@@ -13,14 +13,10 @@ aside > pre{
     margin: auto;
 }
 
-.container-letra{
-    background-color: black;
-    border-radius: 10px;
-}
+
 .letra{
     display: flex;
     text-align: justify;
-    color: white;
     align-items: center;
     justify-content: center;
     padding: 20px;
