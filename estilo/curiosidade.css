@@ -6,7 +6,8 @@
 aside > pre{
     background-color: black;
     border-radius: 20px;
-    width: 470px;
+    max-width: 470px;
+    min-width: 400px;
     height: 600px;
     display: flex;
     margin: auto;
@@ -15,7 +16,7 @@ h3{
     text-align: center;
 }
 
-.coco{
+#letra{
     color: white;
     text-align: center;
     font-size: 1em;

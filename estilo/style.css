@@ -26,12 +26,11 @@ header{
     height: 200px;
 }
 
-header > img{
-    display: block;
-    margin: auto;
-    width: 500px;
-    height: 100px;
+header > picture{
+    display: flex;
     padding: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 nav{
@@ -94,7 +93,7 @@ main h3{
 }
 
 main p{
-    margin: 15px 0px;
+    margin: 20px;
     text-align: justify;
     text-indent: 20px;
     font-size: 1em;
