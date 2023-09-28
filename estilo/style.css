@@ -32,6 +32,11 @@ header > picture{
     justify-content: center;
 }
 
+#header-logo{
+    max-width: 800px;
+    margin: auto;
+}
+
 nav{
     background-color: var(--cor5);
     padding: 10px;
@@ -150,24 +155,6 @@ div.video > iframe{
     height: 90%;
     width: 90%;
 }
-/*
-div.video{
-    background-color: var(--cor5);
-    margin: 0px -20px 30px -20px;
-    padding: 5px;
-    padding-bottom: 39%;
-    width: 900px;
-    position: relative;
-    margin: auto;
-}
-div.video > iframe{
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    height: 90%;
-    width: 90%;
-}
-*/
 
 footer{
     text-align: center;
